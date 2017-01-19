@@ -4,6 +4,8 @@
 # Print the sum, minimum, maximum, median and average of the numbers
 #(the median is the middle number in sorted order if the length of the
 #list is odd; otherwise it is the average of the middle two numbers in sorted order)
+
+#Git Comment
 def part1():
    x= [];
    while True:
@@ -42,6 +44,7 @@ def part1():
 #(your pop should return nothing: just remove the 'top' (last) element).
 #Test by pushing the numbers 1 through 10, and then popping and printing them one at a time.
 
+#Git comment
 def part2():
    class Stack(list):
       def __init__(self):
@@ -65,6 +68,8 @@ def part2():
 
 ##### PART 3 ####
 # n + n
+
+#Git comment
 def part3():
    def num(n):
       z = 1
@@ -83,8 +88,11 @@ def part3():
       else:
          print("That isn't a number")
 
+
 ##### PART 4 ####
 # part 4 sqrt function
+
+#Git comment
 def part4():
    def mySQRT(a,g):
       c = 1
